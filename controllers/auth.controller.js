@@ -26,3 +26,5 @@ module.exports.signUpUser = function (req, res, next) {
     next(e);
   }
 };
+
+module.exports.login = () => {};
